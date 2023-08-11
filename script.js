@@ -10,7 +10,7 @@ function hasKey(key) {
 		return true;
 	}
 	else if(key=="green"){
-		return false;
+		return true;
 	}
 	else if(key=="white"){
 		return true;
@@ -20,5 +20,5 @@ function hasKey(key) {
 }
 
 // Do not change the code below
-//const key = prompt("Enter Key.");
-//alert(hasKey(key));
+const key = prompt("Enter Key.");
+alert(hasKey(key));
